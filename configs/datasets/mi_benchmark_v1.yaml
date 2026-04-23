@@ -1,0 +1,12 @@
+benchmark:
+  name: cross_device_mi_v1
+  paradigm: motor_imagery
+  target_task: left_right_hand_binary
+  dataset_keys:
+    - eegmmidb
+    - lee2019_mi
+    - cho2017
+    - dreyer2023
+  notes:
+    - Phase I benchmark-first dataset bundle
+    - Refine metadata fields before adapter implementation

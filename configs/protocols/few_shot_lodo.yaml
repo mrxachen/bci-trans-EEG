@@ -1,0 +1,16 @@
+protocol:
+  name: few_shot_leave_one_device_out
+  description: >
+    Train on source datasets and adapt to a held-out target device or dataset
+    using a small number of labeled calibration trials per class.
+  calibration_trials_per_class:
+    - 1
+    - 5
+    - 10
+  report_metrics:
+    - accuracy
+    - balanced_accuracy
+    - macro_f1
+  notes:
+    - Placeholder calibration ladder for Phase I scaffold
+    - Final values should be confirmed during protocol design

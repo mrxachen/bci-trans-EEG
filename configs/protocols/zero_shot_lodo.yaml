@@ -1,0 +1,10 @@
+protocol:
+  name: zero_shot_leave_one_device_out
+  description: >
+    Train on source datasets and evaluate on a held-out target device or dataset
+    without target-device calibration trials.
+  calibration_trials_per_class: 0
+  report_metrics:
+    - accuracy
+    - balanced_accuracy
+    - macro_f1

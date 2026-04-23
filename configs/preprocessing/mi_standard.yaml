@@ -1,0 +1,7 @@
+preprocessing:
+  bandpass_hz: [8.0, 30.0]
+  notch_hz: 50.0
+  target_sampling_rate_hz: 250
+  rereference: common_average_or_task_specific
+  normalization: robust_per_session
+  channel_strategy: strict_common_channels_first

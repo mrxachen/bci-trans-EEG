@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Research artifacts
+artifacts/*
+!artifacts/.gitkeep
+logs/
+outputs/
+reports/
+
+# Data
+data/
+downloads/
+raw/
+processed/
+
+# Editors
+.DS_Store
+.idea/
+.vscode/
+
+# Local settings
+.env
+.claude/
+*:Zone.Identifier
+
+# LaTeX build outputs
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc

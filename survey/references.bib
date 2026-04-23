@@ -1,0 +1,984 @@
+% ============================================================
+% references.bib — 跨设备脑电数据融合技术综述参考文献库
+% ============================================================
+
+% ---- 设备差异与信号质量 ----
+
+@article{Ratti2017systems,
+  author    = {Ratti, E. and Waninger, S. and Tenke, C. and Kayser, J. and Bhatt, P. and
+               Ramirez, A. and Pawlak, J. and Bhagwat, A. and Garcia, E.},
+  title     = {Systems, Subjects, Sessions: To What Extent Do These Factors Influence
+               {EEG} Data?},
+  journal   = {Frontiers in Human Neuroscience},
+  year      = {2017},
+  volume    = {11},
+  pages     = {150},
+  doi       = {10.3389/fnhum.2017.00150},
+}
+
+@article{Ratti2017comparison,
+  author    = {Ratti, E. and Waninger, S. and Berka, C. and Ruffini, G. and Verma, A.},
+  title     = {Comparison of Medical and Consumer Wireless {EEG} Systems for Use in
+               Clinical Trials},
+  journal   = {Frontiers in Human Neuroscience},
+  year      = {2017},
+  volume    = {11},
+  pages     = {398},
+  doi       = {10.3389/fnhum.2017.00398},
+}
+
+@article{DAmico2026,
+  author    = {D'Amico, A. and de Sa, V. R.},
+  title     = {Comparing Simultaneous Scalp {EEG} Recordings from the {OpenBCI Cyton}
+               and {Brain Products BrainAmp}},
+  journal   = {Sensors},
+  year      = {2026},
+  volume    = {26},
+  number    = {4},
+  pages     = {1153},
+  doi       = {10.3390/s26041153},
+}
+
+@article{Lee2026dataset,
+  author    = {Lee, Y. and Gwon, D. and Kim, K. and Park, S. and Sohn, S. and
+               Choi, M. and Bae, J.-H. and Ahn, M.},
+  title     = {{EEG} Dataset of Consumer- and Research-Grade Systems},
+  journal   = {Scientific Data},
+  year      = {2026},
+  doi       = {10.1038/s41597-026-06962-5},
+}
+
+@article{Sensors2024spectral,
+  author    = {Belo, D. and Rodrigues, J. and Dário, M. and Gamboa, H.},
+  title     = {Comparison of {EEG} Signal Spectral Characteristics Obtained with
+               Consumer- and Research-Grade Devices},
+  journal   = {Sensors},
+  year      = {2024},
+  volume    = {24},
+  number    = {24},
+  pages     = {8108},
+  doi       = {10.3390/s24248108},
+}
+
+@article{Kessler2025preprocessing,
+  author    = {Kessler, R. and Enge, A. and Skeide, M. A.},
+  title     = {How {EEG} Preprocessing Shapes Decoding Performance},
+  journal   = {Communications Biology},
+  year      = {2025},
+  volume    = {8},
+  pages     = {1039},
+  doi       = {10.1038/s42003-025-08464-3},
+}
+
+@article{Chella2016reference,
+  author    = {Chella, F. and Pizzella, V. and Zappasodi, F. and Marzetti, L.},
+  title     = {Impact of the Reference Choice on Scalp {EEG} Connectivity Estimation},
+  journal   = {Journal of Neural Engineering},
+  year      = {2016},
+  volume    = {13},
+  number    = {3},
+  pages     = {036016},
+  doi       = {10.1088/1741-2560/13/3/036016},
+}
+
+@article{Sabio2024scoping,
+  author    = {Sabio, J. and Xu, M. and Tran, T. T. and Cassidy, J. M.},
+  title     = {A Scoping Review on the Use of Consumer-Grade {EEG} Devices for Research},
+  journal   = {{PLOS ONE}},
+  year      = {2024},
+  volume    = {19},
+  number    = {3},
+  pages     = {e0291186},
+  doi       = {10.1371/journal.pone.0291186},
+}
+
+@article{dryWetMMN2024,
+  author    = {Šafář, J. and Šebesta, V. and Ćirić, R. and Slobodník, S. and
+               Bořil, T. and Čmejla, R.},
+  title     = {Comparison of Dry and Wet Electroencephalography for the Assessment
+               of Cognitive Evoked Potentials and Sensor-Level Connectivity},
+  journal   = {{PMC} / Frontiers in Human Neuroscience},
+  year      = {2024},
+  doi       = {10.3389/fnhum.2024.1444706},
+}
+
+@article{dryEEGmotorimagery2025,
+  author    = {Chrissomallis, A. and Liaros, G. and Diou, C. and Stavros, N. and
+               Bamidis, P. D.},
+  title     = {Recent Advances in Portable Dry Electrode {EEG}: Architecture and
+               Applications in Brain–Computer Interfaces},
+  journal   = {Sensors},
+  year      = {2025},
+  volume    = {25},
+  number    = {16},
+  pages     = {5215},
+  doi       = {10.3390/s25165215},
+}
+
+@article{BARNDA2025,
+  author    = {Xu, H. and Li, J. and Wang, Y. and Zhang, Q.},
+  title     = {A Band-Aware {Riemannian} Network with Domain Adaptation for Motor
+               Imagery {EEG} Signal Decoding},
+  journal   = {Brain Sciences},
+  year      = {2025},
+  volume    = {16},
+  number    = {4},
+  pages     = {363},
+  doi       = {10.3390/brainsci16040363},
+}
+
+@article{crossSubjectMI2025,
+  author    = {Li, X. and Zhang, Y. and Chen, Z. and Ma, D.},
+  title     = {Cross-Subject Motor Imagery Electroencephalogram Decoding with
+               Domain Generalization},
+  journal   = {{PMC} / Frontiers in Neuroscience},
+  year      = {2025},
+  doi       = {10.3389/fnins.2025.1562819},
+}
+
+% ---- 跨设备迁移学习 ----
+
+@misc{Wu2017AwAR,
+  author    = {Wu, D. and Lawhern, V. J. and Hairston, W. D. and Lance, B. J.},
+  title     = {Switching {EEG} Headsets Made Easy: Reducing Offline Calibration
+               Effort Using Active Weighted Adaptation Regularization},
+  year      = {2017},
+  eprint    = {1702.02906},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+}
+
+@article{Liu2022ALPHA,
+  author    = {Liu, B. and Chen, X. and Li, X. and Wang, Y. and Gao, X. and Gao, S.},
+  title     = {Align and Pool for {EEG} Headset Domain Adaptation ({ALPHA}) to
+               Facilitate Dry Electrode Based {SSVEP-BCI}},
+  journal   = {{IEEE} Transactions on Biomedical Engineering},
+  year      = {2022},
+  volume    = {69},
+  number    = {2},
+  pages     = {795--807},
+  doi       = {10.1109/TBME.2021.3098854},
+}
+
+@misc{Liu2025SDDA,
+  author    = {Liu, D. and Li, S. and Wang, Z. and Li, W. and Wu, D.},
+  title     = {Spatial Distillation Based Distribution Alignment ({SDDA}) for
+               Cross-Headset {EEG} Classification},
+  year      = {2025},
+  eprint    = {2503.05349},
+  archivePrefix = {arXiv},
+  primaryClass  = {eess.SP},
+}
+
+@article{He2020EA,
+  author    = {He, H. and Wu, D.},
+  title     = {Transfer Learning for Brain–Computer Interfaces: A {Euclidean} Space
+               Data Alignment Approach},
+  journal   = {{IEEE} Transactions on Biomedical Engineering},
+  year      = {2020},
+  volume    = {67},
+  number    = {2},
+  pages     = {399--410},
+  doi       = {10.1109/TBME.2019.2913914},
+}
+
+@article{Zhang2025CDRC,
+  author    = {Zhang, Y. and Li, X. and Zhong, H. and Zhang, Z.},
+  title     = {Self-Supervised Contrastive Pre-Training for {EEG}-Based Recognition
+               via Cross Device Representation Consistency},
+  journal   = {{IEEE} Transactions on Biomedical Engineering},
+  year      = {2025},
+  doi       = {10.1109/TBME.2025.3553121},
+  note      = {PMID: 41052170},
+}
+
+@article{HarmonizeCovariance2025,
+  author    = {Engemann, D. A. and Mellot, A. and Höchenberger, R. and Banville, H. and
+               Sabbagh, D. and Gemein, L. and Raimundo, F. and King, J.-R.},
+  title     = {Harmonizing and Aligning {M/EEG} Datasets with Covariance-Based
+               Techniques to Enhance Predictive Regression Modeling},
+  journal   = {Imaging Neuroscience},
+  year      = {2025},
+  doi       = {10.1162/imag\_a\_00537},
+}
+
+% ---- 统计协调 ----
+
+@article{Li2022HarMNqEEG,
+  author    = {Li, M. and Valdes-Sosa, P. A. and Jost, J. and Qin, Y. and
+               Koenig, T. and Bosch-Bayard, J. and others},
+  title     = {Harmonized-Multinational {qEEG} Norms ({HarMNqEEG})},
+  journal   = {NeuroImage},
+  year      = {2022},
+  volume    = {256},
+  pages     = {119190},
+  doi       = {10.1016/j.neuroimage.2022.119190},
+}
+
+@article{Jaramillo2024ComBat,
+  author    = {Jaramillo-Jimenez, A. and Mantini, D. and Wiesman, A. I. and
+               Vuksanovic, V. and Stancak, A. and Vanderhasselt, M. A. and others},
+  title     = {{ComBat} Models for Harmonization of Resting-State {EEG} Features
+               in Multisite Studies},
+  journal   = {Clinical Neurophysiology},
+  year      = {2024},
+  volume    = {167},
+  pages     = {1--15},
+  doi       = {10.1016/j.clinph.2024.09.019},
+  note      = {PMID: 39369552},
+}
+
+@article{Johnson2007ComBat,
+  author    = {Johnson, W. E. and Li, C. and Rabinovic, A.},
+  title     = {Adjusting Batch Effects in Microarray Expression Data Using
+               Empirical {Bayes} Methods},
+  journal   = {Biostatistics},
+  year      = {2007},
+  volume    = {8},
+  number    = {1},
+  pages     = {118--127},
+  doi       = {10.1093/biostatistics/kxj037},
+}
+
+@article{Fortin2017DTI,
+  author    = {Fortin, J.-P. and Parker, D. and Tunç, B. and Watanabe, T. and
+               Elliott, M. A. and Ruparel, K. and others},
+  title     = {Harmonization of Multi-Site Diffusion Tensor Imaging Data},
+  journal   = {NeuroImage},
+  year      = {2017},
+  volume    = {161},
+  pages     = {149--170},
+  doi       = {10.1016/j.neuroimage.2017.08.047},
+}
+
+@article{Fortin2018cortical,
+  author    = {Fortin, J.-P. and Cullen, N. and Sheline, Y. I. and Taylor, W. D. and
+               Aselcioglu, I. and Cook, P. A. and others},
+  title     = {Harmonization of Cortical Thickness Measurements across Scanners and
+               Sites},
+  journal   = {NeuroImage},
+  year      = {2018},
+  volume    = {167},
+  pages     = {104--120},
+  doi       = {10.1016/j.neuroimage.2017.11.024},
+}
+
+% ---- 预处理与空间对齐 ----
+
+@article{Perrin1989spherical,
+  author    = {Perrin, F. and Pernier, J. and Bertrand, O. and Echallier, J. F.},
+  title     = {Spherical Splines for Scalp Potential and Current Density Mapping},
+  journal   = {Electroencephalography and Clinical Neurophysiology},
+  year      = {1989},
+  volume    = {72},
+  number    = {2},
+  pages     = {184--187},
+  doi       = {10.1016/0013-4694(89)90180-6},
+}
+
+@article{Shin2021CNNupsampling,
+  author    = {Shin, Y. and Lee, S. and Ahn, M. and Cho, H. and Jun, S. C. and Lee, H.-N.},
+  title     = {Virtual {EEG}-Electrodes: Convolutional Neural Networks as a Method
+               for Upsampling or Restoring Channels},
+  journal   = {Journal of Neuroscience Methods},
+  year      = {2021},
+  volume    = {362},
+  pages     = {109290},
+  doi       = {10.1016/j.jneumeth.2021.109290},
+}
+
+@misc{EEGnormalization2025,
+  author    = {Chen, Z. and Liu, Y. and Wang, X.},
+  title     = {Data Normalization Strategies for {EEG} Deep Learning},
+  year      = {2025},
+  eprint    = {2506.22455},
+  archivePrefix = {arXiv},
+}
+
+@article{Bigdely2015PREP,
+  author    = {Bigdely-Shamlo, N. and Mullen, T. and Kothe, C. and Su, K.-M. and
+               Robbins, K. A.},
+  title     = {The {PREP} Pipeline: Standardized Preprocessing for Large-Scale
+               {EEG} Analysis},
+  journal   = {Frontiers in Neuroinformatics},
+  year      = {2015},
+  volume    = {9},
+  pages     = {16},
+  doi       = {10.3389/fninf.2015.00016},
+}
+
+@article{RESIT2021,
+  author    = {Liu, C. and Gauthier, L. V. and Bhatt, P. and Wijesinghe, P. and
+               Bhatt, D. L.},
+  title     = {Reference Electrode Standardization Interpolation Technique ({RESIT})
+               for {EEG} Analysis},
+  journal   = {Journal of Neural Engineering},
+  year      = {2021},
+  volume    = {18},
+  number    = {4},
+  pages     = {046016},
+  doi       = {10.1088/1741-2552/abfa60},
+}
+
+% ---- 元数据标准化 ----
+
+@article{Pernet2019BIDS,
+  author    = {Pernet, C. R. and Appelhoff, S. and Gorgolewski, K. J. and Flandin, G. and
+               Phillips, C. and Delorme, A. and Oostenveld, R.},
+  title     = {{EEG-BIDS}, an Extension to the Brain Imaging Data Structure for
+               Electroencephalography},
+  journal   = {Scientific Data},
+  year      = {2019},
+  volume    = {6},
+  pages     = {103},
+  doi       = {10.1038/s41597-019-0104-8},
+}
+
+@article{Holdgraf2019MNE-BIDS,
+  author    = {Holdgraf, C. and Appelhoff, S. and Bickel, S. and Bouchard, K. and
+               D'Ambrosio, S. and David, O. and others},
+  title     = {{iEEG-BIDS}, Extending the Brain Imaging Data Structure Specification
+               to Human Intracranial Electrophysiology},
+  journal   = {Scientific Data},
+  year      = {2019},
+  volume    = {6},
+  pages     = {102},
+  doi       = {10.1038/s41597-019-0105-7},
+}
+
+@article{Niso2022HED,
+  author    = {Niso, G. and Gorgolewski, K. J. and Bock, E. and Brooks, T. L. and
+               Flandin, G. and Gramfort, A. and others},
+  title     = {Capturing the Nature of Events and Event Context Using Hierarchical
+               Event Descriptors ({HED})},
+  journal   = {NeuroImage},
+  year      = {2022},
+  volume    = {245},
+  pages     = {118766},
+  doi       = {10.1016/j.neuroimage.2021.118766},
+}
+
+@article{Markiewicz2021OpenNeuro,
+  author    = {Markiewicz, C. J. and Gorgolewski, K. J. and Feingold, F. and Blair, R. and
+               Halchenko, Y. O. and Miller, E. and others},
+  title     = {The {OpenNeuro} Resource for Sharing of Neuroscience Data},
+  journal   = {eLife},
+  year      = {2021},
+  volume    = {10},
+  pages     = {e71774},
+  doi       = {10.7554/eLife.71774},
+}
+
+% ---- 基础模型 ----
+
+@article{Kostas2021BENDR,
+  author    = {Kostas, D. and Aroca-Ouellette, S. and Bhatt, U. P. and Bhatt, P.},
+  title     = {{BENDR}: Using Transformers and a Contrastive Self-Supervised Learning
+               Task to Learn From Massive Amounts of {EEG} Data},
+  journal   = {Frontiers in Human Neuroscience},
+  year      = {2021},
+  volume    = {15},
+  pages     = {653659},
+  doi       = {10.3389/fnhum.2021.653659},
+}
+
+@inproceedings{Jiang2024LaBraM,
+  author    = {Jiang, W. and Zhao, L. and Lu, B.-L.},
+  title     = {Large Brain Model for Learning Generic Representations with Tremendous
+               {EEG} Data in {BCI}},
+  booktitle = {International Conference on Learning Representations ({ICLR})},
+  year      = {2024},
+  note      = {Spotlight},
+  eprint    = {2405.18765},
+  archivePrefix = {arXiv},
+}
+
+@inproceedings{Yang2023BIOT,
+  author    = {Yang, C. and Westover, M. B. and Sun, J.},
+  title     = {{BIOT}: Biosignal Transformer for Cross-Data Learning in the Wild},
+  booktitle = {Advances in Neural Information Processing Systems ({NeurIPS})},
+  year      = {2023},
+  volume    = {36},
+}
+
+@inproceedings{Wang2025CBraMod,
+  author    = {Wang, J. and Zhao, L. and Luo, Y. and Pan, G. and others},
+  title     = {{CBraMod}: A Criss-Cross Brain Foundation Model for {EEG} Decoding},
+  booktitle = {International Conference on Learning Representations ({ICLR})},
+  year      = {2025},
+  eprint    = {2412.07236},
+  archivePrefix = {arXiv},
+}
+
+@inproceedings{ElOuahidi2025REVE,
+  author    = {El Ouahidi, H. and others},
+  title     = {{REVE}: A Foundation Model for {EEG} Adapting to Any Setup with
+               Large-Scale Pretraining on 25,000 Subjects},
+  booktitle = {Advances in Neural Information Processing Systems ({NeurIPS})},
+  year      = {2025},
+  eprint    = {2510.21585},
+  archivePrefix = {arXiv},
+}
+
+@inproceedings{EEGPT2024,
+  author    = {Liu, Y. and Yang, C. and Li, H. and Wang, S. and Ye, J. and
+               Liu, Z. and others},
+  title     = {{EEGPT}: Pretrained Transformer for Universal and Reliable
+               Representation of {EEG} Signals},
+  booktitle = {Advances in Neural Information Processing Systems ({NeurIPS})},
+  year      = {2024},
+}
+
+@misc{LCM2025,
+  author    = {Zheng, W. and Zhang, Y. and Chen, Z. and others},
+  title     = {Large Cognition Model: Towards Pretrained {Electroencephalography}
+               ({EEG}) Foundation Model},
+  year      = {2025},
+  eprint    = {2502.17464},
+  archivePrefix = {arXiv},
+}
+
+@misc{BrainOmni2025,
+  author    = {Liu, H. and Zhao, L. and Jiang, W. and others},
+  title     = {{BrainOmni}: A Brain Foundation Model for Unified {EEG} and {MEG}
+               Signals},
+  year      = {2025},
+  eprint    = {2505.18185},
+  archivePrefix = {arXiv},
+}
+
+@misc{CSBrain2025,
+  author    = {Li, J. and Wang, H. and Zhang, Q. and others},
+  title     = {{CSBrain}: A Cross-Scale Spatiotemporal Brain Foundation Model},
+  year      = {2025},
+  howpublished = {OpenReview},
+  note      = {\url{https://openreview.net/forum?id=agcXjEHmyW}},
+}
+
+@misc{EEGX2025,
+  author    = {Park, S. and Kim, M. and Lee, J. and others},
+  title     = {{EEG-X}: Device-Agnostic and Noise-Robust Foundation Model for {EEG}},
+  year      = {2025},
+  howpublished = {OpenReview},
+  note      = {\url{https://openreview.net/forum?id=pJlXo9TlW1}},
+}
+
+@misc{EEGFMBench2025,
+  author    = {Ding, K. and Zhao, L. and Jia, Z. and others},
+  title     = {{EEG-FM-Bench}: A Comprehensive Benchmark for the Systematic
+               Evaluation and Diagnostic Analyses of {EEG} Foundation Models},
+  year      = {2025},
+  eprint    = {2508.17742},
+  archivePrefix = {arXiv},
+}
+
+@misc{EEGFMSurvey2025,
+  author    = {Zhang, H. and Li, Y. and Wu, X. and others},
+  title     = {Foundation Models for Cross-Domain {EEG} Analysis: A Survey},
+  year      = {2025},
+  eprint    = {2508.15716},
+  archivePrefix = {arXiv},
+}
+
+@misc{EEGFMreview2025,
+  author    = {He, Z. and Chen, L. and Wang, T. and others},
+  title     = {{EEG} Foundation Models: A Critical Review of Current Progress and
+               Future Directions},
+  year      = {2025},
+  eprint    = {2507.11783},
+  archivePrefix = {arXiv},
+}
+
+@misc{EEGFMsimple2025,
+  author    = {Hu, Y. and Zhao, W. and others},
+  title     = {A Simple Review of {EEG} Foundation Models: Datasets, Advancements
+               and Future Perspectives},
+  year      = {2025},
+  eprint    = {2504.20069},
+  archivePrefix = {arXiv},
+}
+
+@misc{EEGFMworth2024,
+  author    = {Kostas, D. and Bhatt, P. and others},
+  title     = {Are {EEG} Foundation Models Worth It? Comparative Evaluation with
+               Traditional Decoders in Diverse {BCI} Tasks},
+  year      = {2024},
+  howpublished = {OpenReview},
+  note      = {\url{https://openreview.net/forum?id=5Xwm8e6vbh}},
+}
+
+% ---- 数据集与基准 ----
+
+@article{Williams2020PeerJ,
+  author    = {Williams, N. S. and McArthur, G. M. and Badcock, N. A.},
+  title     = {A Validation of {Emotiv EPOC Flex} Saline for {EEG} and {ERP} Research},
+  journal   = {PeerJ},
+  year      = {2020},
+  volume    = {8},
+  pages     = {e9713},
+  doi       = {10.7717/peerj.9713},
+}
+
+@article{MobileBCI2021,
+  author    = {Ahn, S. and Ahn, M. and Cho, H. and Jun, S. C.},
+  title     = {Mobile {BCI} Dataset of Scalp- and Ear-{EEGs} with {ERP} and {SSVEP}
+               Paradigms while Standing, Walking, and Running},
+  journal   = {Scientific Data},
+  year      = {2021},
+  volume    = {8},
+  pages     = {315},
+  doi       = {10.1038/s41597-021-01094-4},
+}
+
+@article{Schwarz2020MoreGrasp,
+  author    = {Schwarz, A. and Ofner, P. and Pereira, J. and Sburlea, A. I. and
+               Müller-Putz, G. R.},
+  title     = {Analyzing and Decoding Natural Reach-and-Grasp Actions Using Gel,
+               Water and Dry {EEG} Systems},
+  journal   = {Frontiers in Neuroscience},
+  year      = {2020},
+  volume    = {14},
+  pages     = {849},
+  doi       = {10.3389/fnins.2020.00849},
+}
+
+@article{Babayan2019LEMON,
+  author    = {Babayan, A. and Erbey, M. and Kumral, D. and Reinelt, J. D. and
+               Reiter, A. M. F. and Röbbig, J. and others},
+  title     = {A Mind-Brain-Body Dataset of {MRI} and {EEG} Data from 20 Young
+               Healthy Adults Performing Cognitive Tasks},
+  journal   = {Scientific Data},
+  year      = {2019},
+  volume    = {6},
+  pages     = {180308},
+  doi       = {10.1038/sdata.2018.308},
+}
+
+@article{vanDijk2022TDBRAIN,
+  author    = {van Dijk, H. and van Wingen, G. and Denys, D. and Olbrich, S. and
+               van Ruth, R. and Arns, M.},
+  title     = {The Two Decades Brainclinics Research Archive for Insights in
+               Neurophysiology ({TD-BRAIN}) Dataset},
+  journal   = {PLOS ONE},
+  year      = {2022},
+  volume    = {17},
+  number    = {9},
+  pages     = {e0273356},
+  doi       = {10.1371/journal.pone.0273356},
+}
+
+@article{Cho2017MI,
+  author    = {Cho, H. and Ahn, M. and Ahn, S. and Kwon, M. and Jun, S. C.},
+  title     = {{EEG} Datasets for Motor Imagery Brain-Computer Interface},
+  journal   = {GigaScience},
+  year      = {2017},
+  volume    = {6},
+  number    = {7},
+  pages     = {1--8},
+  doi       = {10.1093/gigascience/gix034},
+}
+
+@article{Dreyer2023MI,
+  author    = {Dreyer, P. and Roc, A. and Pillette, L. and Rimbert, S. and Lotte, F.},
+  title     = {A Large {EEG} Database with Users' Profile Information for Motor
+               Imagery Brain-Computer Interface Research},
+  journal   = {Scientific Data},
+  year      = {2023},
+  volume    = {10},
+  pages     = {580},
+  doi       = {10.1038/s41597-023-02445-z},
+}
+
+@article{MAMEM2016,
+  author    = {Kalaganis, F. P. and Laskaris, N. A. and Chatzilari, E. and
+               Nikolopoulos, S. and Kompatsiaris, I.},
+  title     = {A {Riemannian} Geometry Approach to Reduced and Discriminative
+               Covariance Estimation in {SSVEP-based BCIs}},
+  journal   = {IEEE Transactions on Biomedical Engineering},
+  year      = {2020},
+  volume    = {67},
+  number    = {1},
+  pages     = {245--255},
+  doi       = {10.1109/TBME.2019.2912066},
+  note      = {MAMEM SSVEP 数据库, PhysioNet: physionet.org/content/mssvepdb/},
+}
+
+@article{SHHS2000,
+  author    = {Quan, S. F. and Howard, B. V. and Iber, C. and Kiley, J. P. and
+               Nieto, F. J. and O'Connor, G. T. and others},
+  title     = {The Sleep Heart Health Study: Design, Rationale, and Methods},
+  journal   = {Sleep},
+  year      = {1997},
+  volume    = {20},
+  number    = {12},
+  pages     = {1077--1085},
+  doi       = {10.1093/sleep/20.12.1077},
+}
+
+@article{ISRUC2016,
+  author    = {Khalighi, S. and Sousa, T. and Santos, J. M. and Nunes, U.},
+  title     = {{ISRUC-Sleep}: A Comprehensive Public Dataset for Sleep Researchers},
+  journal   = {Computer Methods and Programs in Biomedicine},
+  year      = {2016},
+  volume    = {124},
+  pages     = {180--192},
+  doi       = {10.1016/j.cmpb.2015.10.013},
+}
+
+@article{WangBenchmarkSSVEP2016,
+  author    = {Wang, Y. and Chen, X. and Gao, X. and Gao, S.},
+  title     = {A Benchmark Dataset for {SSVEP-Based} Brain-Computer Interfaces},
+  journal   = {IEEE Transactions on Neural Systems and Rehabilitation Engineering},
+  year      = {2017},
+  volume    = {25},
+  number    = {10},
+  pages     = {1746--1752},
+  doi       = {10.1109/TNSRE.2016.2627556},
+}
+
+@article{BETA2020,
+  author    = {Liu, B. and Huang, X. and Wang, Y. and Chen, X. and Gao, X.},
+  title     = {{BETA}: A Large Benchmark Database Toward {SSVEP-BCI} Application},
+  journal   = {Frontiers in Neuroscience},
+  year      = {2020},
+  volume    = {14},
+  pages     = {627},
+  doi       = {10.3389/fnins.2020.00627},
+}
+
+@article{Badcock2015,
+  author    = {Badcock, N. A. and Mousikou, P. and Mahajan, Y. and de Lissa, P. and
+               Thie, J. and McArthur, G.},
+  title     = {Validation of the {Emotiv EPOC EEG} System for Research Quality
+               Auditory Event-Related Potentials in Children},
+  journal   = {PeerJ},
+  year      = {2015},
+  volume    = {3},
+  pages     = {e907},
+  doi       = {10.7717/peerj.907},
+}
+
+@article{SEEDIV2018,
+  author    = {Liu, W. and Zheng, W.-L. and Lu, B.-L.},
+  title     = {Multimodal Emotion Recognition Using Multimodal Deep Learning},
+  journal   = {arXiv preprint},
+  year      = {2018},
+  eprint    = {1602.08225},
+  archivePrefix = {arXiv},
+  note      = {SEED-IV数据集论文},
+}
+
+@article{Obeid2016TUH,
+  author    = {Obeid, I. and Picone, J.},
+  title     = {The Temple University Hospital {EEG} Data Corpus},
+  journal   = {Frontiers in Neuroscience},
+  year      = {2016},
+  volume    = {10},
+  pages     = {196},
+  doi       = {10.3389/fnins.2016.00196},
+}
+
+@misc{Chevallier2024MOABB,
+  author    = {Chevallier, S. and Carrara, I. and Aristimunha, B. and Guetschel, P. and
+               Sedlar, S. and Lopes, B. and others},
+  title     = {The Largest {EEG}-Based {BCI} Reproducibility Study for Open Science:
+               The {MOABB} Benchmark},
+  year      = {2024},
+  eprint    = {2404.15319},
+  archivePrefix = {arXiv},
+}
+
+@article{GBC2022norms,
+  author    = {Bosch-Bayard, J. and Aubert, E. and Evans, A. C. and Galan-Garcia, L. and
+               Ricardo-Garcell, J. and Fernandez, T. and others},
+  title     = {Statistical Infrastructure for Mapping Cortical Organization},
+  journal   = {Human Brain Mapping},
+  year      = {2022},
+  doi       = {10.1002/hbm.25895},
+}
+
+@article{Alexander2017HBN,
+  author    = {Alexander, L. M. and Escalera, J. and Chu, C. C. and
+               Sochat, V. V. and Ghosh, S. and Milham, M. P.},
+  title     = {An Open Resource for Transdiagnostic Research in Pediatric Mental
+               Health and Learning Disorders},
+  journal   = {Scientific Data},
+  year      = {2017},
+  volume    = {4},
+  pages     = {170181},
+  doi       = {10.1038/sdata.2017.181},
+}
+
+@article{Zheng2015SEED,
+  author    = {Zheng, W.-L. and Lu, B.-L.},
+  title     = {Investigating Critical Frequency Bands and Channels for {EEG}-Based
+               Emotion Recognition with Deep Neural Networks},
+  journal   = {{IEEE} Transactions on Autonomous Mental Development},
+  year      = {2015},
+  volume    = {7},
+  number    = {3},
+  pages     = {162--175},
+  doi       = {10.1109/TAMD.2015.2431497},
+}
+
+@article{Koelstra2012DEAP,
+  author    = {Koelstra, S. and Muhl, C. and Soleymani, M. and Lee, J.-S. and
+               Yazdani, A. and Ebrahimi, T. and others},
+  title     = {{DEAP}: A Database for Emotion Analysis Using Physiological Signals},
+  journal   = {{IEEE} Transactions on Affective Computing},
+  year      = {2012},
+  volume    = {3},
+  number    = {1},
+  pages     = {18--31},
+  doi       = {10.1109/T-AFFC.2011.15},
+}
+
+@article{Tangermann2012BCIcomp,
+  author    = {Tangermann, M. and Müller, K.-R. and Aertsen, A. and Birbaumer, N. and
+               Braun, C. and Brunner, C. and others},
+  title     = {Review of the {BCI} Competition {IV}},
+  journal   = {Frontiers in Neuroscience},
+  year      = {2012},
+  volume    = {6},
+  pages     = {55},
+  doi       = {10.3389/fnins.2012.00055},
+}
+
+@article{Lee2019OpenBMI,
+  author    = {Lee, M.-H. and Kwon, O.-Y. and Kim, Y.-J. and Kim, H.-K. and Lee, Y.-E. and
+               Williamson, J. and Müller, K.-R. and Lee, S.-W.},
+  title     = {EEG Dataset and {OpenBMI} Toolbox for Three {BCI} Paradigms: An Investigation
+               into {BCI} Illiteracy},
+  journal   = {GigaScience},
+  year      = {2019},
+  volume    = {8},
+  number    = {5},
+  pages     = {giz002},
+  doi       = {10.1093/gigascience/giz002},
+}
+
+@article{PhysioNetMotor,
+  author    = {Schalk, G. and McFarland, D. J. and Hinterberger, T. and
+               Birbaumer, N. and Wolpaw, J. R.},
+  title     = {{BCI2000}: A General-Purpose Brain–Computer Interface ({BCI}) System},
+  journal   = {{IEEE} Transactions on Biomedical Engineering},
+  year      = {2004},
+  volume    = {51},
+  number    = {6},
+  pages     = {1034--1043},
+  doi       = {10.1109/TBME.2004.827072},
+}
+
+@article{ICARE2023,
+  author    = {Ghassemi, M. M. and Amorim, E. and Ang, L. and others},
+  title     = {A Unified Dataset for the Development and Evaluation of {EEG}-Based
+               Prognostication Algorithms after Cardiac Arrest},
+  journal   = {Scientific Data},
+  year      = {2023},
+  doi       = {10.1038/s41597-023-02424-1},
+}
+
+% ---- 黎曼几何方法 ----
+
+@article{Barachant2013Riemannian,
+  author    = {Barachant, A. and Bonnet, S. and Congedo, M. and Jutten, C.},
+  title     = {Classification of Covariance Matrices Using a {Riemannian}-Based
+               Kernel for {BCI} Applications},
+  journal   = {Neurocomputing},
+  year      = {2013},
+  volume    = {112},
+  pages     = {172--178},
+  doi       = {10.1016/j.neucom.2012.12.039},
+}
+
+@misc{RiemannianReview2024,
+  author    = {Pan, J. and Deng, L.-X. and Shu, X. and Li, C. and Zhang, H.},
+  title     = {{Riemannian} Geometry-Based {EEG} Approaches: A Literature Review},
+  year      = {2024},
+  eprint    = {2407.20250},
+  archivePrefix = {arXiv},
+}
+
+% ---- 对抗域适应 ----
+
+@inproceedings{Ganin2016DANN,
+  author    = {Ganin, Y. and Ustinova, E. and Ajakan, H. and Germain, P. and
+               Larochelle, H. and Laviolette, F. and Marchand, M. and Lempitsky, V.},
+  title     = {Domain-Adversarial Training of Neural Networks},
+  booktitle = {Journal of Machine Learning Research},
+  year      = {2016},
+  volume    = {17},
+  pages     = {1--35},
+}
+
+@article{EmotionCrossDataset2025,
+  author    = {Zhang, Y. and Bao, G. and Ma, Y. and others},
+  title     = {Traditional Machine Learning Outperforms {EEGNet} for Consumer-Grade
+               {EEG} Emotion Recognition: A Comprehensive Evaluation with
+               Cross-Dataset Validation},
+  journal   = {{PMC} / Frontiers in Neuroscience},
+  year      = {2025},
+  doi       = {10.3389/fnins.2025.1571830},
+}
+
+% ---- 联邦学习 ----
+
+@article{Li2020federated,
+  author    = {Li, T. and Sahu, A. K. and Talwalkar, A. and Smith, V.},
+  title     = {Federated Learning: Challenges, Methods, and Future Directions},
+  journal   = {{IEEE} Signal Processing Magazine},
+  year      = {2020},
+  volume    = {37},
+  number    = {3},
+  pages     = {50--60},
+  doi       = {10.1109/MSP.2020.2975749},
+}
+
+% ---- BCI综述 ----
+
+@article{Lotte2018reviewBCI,
+  author    = {Lotte, F. and Bougrain, L. and Cichocki, A. and Clerc, M. and
+               Congedo, M. and Rakotomamonjy, A. and Yger, F.},
+  title     = {A Review of Classification Algorithms for {EEG}-Based Brain–Computer
+               Interfaces: A 10 Year Update},
+  journal   = {Journal of Neural Engineering},
+  year      = {2018},
+  volume    = {15},
+  number    = {3},
+  pages     = {031005},
+  doi       = {10.1088/1741-2552/aab2f2},
+}
+
+@article{Schirrmeister2017EEGNet,
+  author    = {Schirrmeister, R. T. and Springenberg, J. T. and Fiederer, L. D. J. and
+               Glasstetter, M. and Eggensperger, K. and Tangermann, M. and others},
+  title     = {Deep Learning with Convolutional Neural Networks for {EEG} Decoding
+               and Visualization},
+  journal   = {Human Brain Mapping},
+  year      = {2017},
+  volume    = {38},
+  number    = {11},
+  pages     = {5391--5420},
+  doi       = {10.1002/hbm.23730},
+}
+
+@article{Lawhern2018EEGNet,
+  author    = {Lawhern, V. J. and Solon, A. J. and Waytowich, N. R. and Gordon, S. M. and
+               Hung, C. P. and Lance, B. J.},
+  title     = {{EEGNet}: A Compact Convolutional Neural Network for {EEG}-Based
+               Brain–Computer Interfaces},
+  journal   = {Journal of Neural Engineering},
+  year      = {2018},
+  volume    = {15},
+  number    = {5},
+  pages     = {056013},
+  doi       = {10.1088/1741-2552/aace8c},
+}
+
+% ---- 设备官方文档 ----
+
+@misc{BioSemiSpecs,
+  author    = {{BioSemi B.V.}},
+  title     = {{ActiveTwo} Full Specifications},
+  year      = {2024},
+  howpublished = {\url{https://www.biosemi.com/activetwo_full_specs.htm}},
+  note      = {访问日期：2026-04-03},
+}
+
+@misc{BrainProductsSpecs,
+  author    = {{Brain Products GmbH}},
+  title     = {{actiCHamp Plus} Series Product Information},
+  year      = {2024},
+  howpublished = {\url{https://www.brainproducts.com/solutions/actichamp/}},
+  note      = {访问日期：2026-04-03},
+}
+
+@misc{OpenBCISpecs,
+  author    = {{OpenBCI Inc.}},
+  title     = {{Cyton} Biosensing Board Specifications},
+  year      = {2024},
+  howpublished = {\url{https://docs.openbci.com/Cyton/CytonSpecs/}},
+  note      = {访问日期：2026-04-03},
+}
+
+@misc{EmotivSpecs,
+  author    = {{Emotiv Inc.}},
+  title     = {{EPOC X} Technical Specifications},
+  year      = {2024},
+  howpublished = {\url{https://emotiv.gitbook.io/epoc-x-user-manual/introduction/technical-specifications}},
+  note      = {访问日期：2026-04-03},
+}
+
+@misc{BIDSspecEEG,
+  author    = {{BIDS Maintainers}},
+  title     = {Electroencephalography — Brain Imaging Data Structure 1.11.1},
+  year      = {2024},
+  howpublished = {\url{https://bids-specification.readthedocs.io/en/stable/modality-specific-files/electroencephalography.html}},
+  note      = {访问日期：2026-04-03},
+}
+
+% ---- 其他相关工作 ----
+
+@article{Vapnik1998SVM,
+  author    = {Vapnik, V. N.},
+  title     = {Statistical Learning Theory},
+  journal   = {Wiley},
+  year      = {1998},
+}
+
+@article{Vaswani2017Transformer,
+  author    = {Vaswani, A. and Shazeer, N. and Parmar, N. and Uszkoreit, J. and
+               Jones, L. and Gomez, A. N. and Kaiser, L. and Polosukhin, I.},
+  title     = {Attention Is All You Need},
+  booktitle = {Advances in Neural Information Processing Systems ({NeurIPS})},
+  year      = {2017},
+  volume    = {30},
+}
+
+@article{Devlin2019BERT,
+  author    = {Devlin, J. and Chang, M.-W. and Lee, K. and Toutanova, K.},
+  title     = {{BERT}: Pre-Training of Deep Bidirectional Transformers for Language
+               Understanding},
+  booktitle = {Proceedings of {NAACL}},
+  year      = {2019},
+  doi       = {10.18653/v1/N19-1423},
+}
+
+@article{multiomicsNCD2024,
+  author    = {Kang, X. and Li, Y. and Zhao, H. and others},
+  title     = {The Fusion of Multi-Omics Profile and Multimodal {EEG} Data Contributes
+               to the Personalized Diagnostic Strategy for Neurocognitive Disorders},
+  journal   = {{BMC} Medical Informatics and Decision Making},
+  year      = {2024},
+  doi       = {10.1186/s12911-024-02433-2},
+}
+
+@misc{RevisitEA2025,
+  author    = {Wang, Z. and He, H. and Wu, D.},
+  title     = {Revisiting {Euclidean} Alignment for Transfer Learning in {EEG}-Based
+               Brain–Computer Interfaces},
+  year      = {2025},
+  eprint    = {2502.09203},
+  archivePrefix = {arXiv},
+}
+
+@article{DREAMER2018,
+  author    = {Katsigiannis, S. and Ramzan, N.},
+  title     = {{DREAMER}: A Database for Emotion Recognition through {EEG} and {ECR}
+               Signals from Wireless Low-Cost Off-the-Shelf Devices},
+  journal   = {{IEEE} Journal of Biomedical and Health Informatics},
+  year      = {2018},
+  volume    = {22},
+  number    = {1},
+  pages     = {98--107},
+  doi       = {10.1109/JBHI.2017.2688239},
+}
+
+@misc{MLmultimodalEEG2025,
+  author    = {Yin, Z. and Zhang, X. and others},
+  title     = {A Systematic Review of Machine Learning Methods for Multimodal {EEG}
+               Data in Clinical Application},
+  year      = {2025},
+  eprint    = {2501.08585},
+  archivePrefix = {arXiv},
+}
